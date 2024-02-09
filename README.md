@@ -5,35 +5,35 @@ This project focuses on SQL Data Modelling using a dataset from a retail shop's 
 ### Dataset Description
 
 #### sales_fact
-order_id (int)
-customer_id (int)
-order_date (date)
+order_id (int),
+customer_id (int),
+order_date (date),
 store_id (smallint)
 
 #### order_product_mapping
-order_id (int)
-product_id (varchar(10))
-quantity_ordered (int)
+order_id (int),
+product_id (varchar(10)),
+quantity_ordered (int),
 
 #### product_info
-product_id (varchar(10))
-product_name (varchar(100))
-product_category (varchar(50))
-list_price (decimal(12,2))
-sale_price (decimal(12,2))
+product_id (varchar(10)),
+product_name (varchar(100)),
+product_category (varchar(50)),
+list_price (decimal(12,2)),
+sale_price (decimal(12,2)),
 
 #### customer_info
-customer_id (int)
-first_name (varchar(20))
-last_name (varchar(20))
-gender (varchar(10))
+customer_id (int),
+first_name (varchar(20)),
+last_name (varchar(20)),
+gender (varchar(10)),
 email (varchar(30))
 
 #### branch_details
-store_id (smallint)
-store_name (varchar(20))
-area (varchar(20))
-city (varchar(20))
+store_id (smallint),
+store_name (varchar(20)),
+area (varchar(20)),
+city (varchar(20)),
 state (varchar(20))
 
 ### Objective
